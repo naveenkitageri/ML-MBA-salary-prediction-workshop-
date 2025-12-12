@@ -1,0 +1,37 @@
+1. What is Machine Learning and why is it used for?  
+A = Machine Learning (ML) is a subset of Artificial Intelligence (AI) that allows computers to learn patterns from data and make predictions or decisions without being explicitly programmed.   It is used to solve problems such as classification, prediction, pattern recognition, and automation. 
+
+2. Define what is a function. Explain why a function is called a basic block of ML. 
+A = A function is a small piece of code that does one task. You can reuse it by calling its name and giving different inputs. In ML, functions are important because data cleaning, training, testing, and prediction — all are done using functions.
+
+3. Explain in own words what is supervised, unsupervised, and semi-supervised ML. 
+A = Supervised: Data has answers → model learns from them.
+Unsupervised: Data has no answers → model finds patterns.
+Semi-supervised: Some data has answers, some doesn’t → model learns using both.
+
+4. What is feature scaling? Why is it important?
+A = Feature scaling is the process of converting features with different ranges into a common scale. It is important because the model trains faster and gives better results.
+
+5. Explain what Normalization and Standardization are. Tabulate their differences and their use cases.  
+A = they both are the methods of feature scaling 
+       Standardization       |      Normalization
+                             |
+->   it is used when we have | it is used when we don't 
+     outliers                | have no outliers
+                             |
+->   z=X-mean                | =  X-min
+     --------                |   --------
+       std                   |   max-min
+
+6. Define what is Linear Regression. Why is Linear Regression important?
+A = Linear Regression is a statistical and machine learning method that models the relationship between an independent variable (X) and a dependent variable (Y) using a straight line.The goal is to find the best-fitting line that can predict Y based on X. 
+
+7. What is goal of the best fit line? 
+A = The goal of the best-fit line is to minimize the error (difference) between the predicted values and the actual values, so the model can make the most accurate predictions.
+
+8. Explain the metric used to determine the effectiveness of Linear Regression model.   
+A = Mean Absolute Error (MAE):Measures the average absolute difference between actual and predicted values.
+Mean Squared Error (MSE):Measures the average squared difference. Penalizes larger errors more.
+Root Mean Squared Error (RMSE):Square root of MSE. Gives error in the original units of the target variable.
+R² Score (Coefficient of Determination):Shows how well the model explains the variance of the target variable (0 to 1).
+Adjusted R²:Similar to R² but adjusts for the number of features. Prevents overfitting. 
